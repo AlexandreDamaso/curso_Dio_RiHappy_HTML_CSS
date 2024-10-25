@@ -1,0 +1,32 @@
+/* 
+Seletores CSS 
+
+  Seletores         No HTML                              No CSS
+- por tag ou tipo  <tag></tag>                           h1 { }
+- por ID           id="nome-do-id"                       #nomeDoID
+- por Classe       class="nome-da-class"                 .nomeDaClass
+- universal        <tag></tag>                           * { }
+- por atributo     atributo="valor"                      [atributo] { }
+                   atributo="valor parte"                [atributo~="parte"] { }
+                   atributo="valor-exato"                [atributo|="parte"] { }
+                   atributo="valor-prefixo"              [atributo^="valor"] { }
+                   atributo="valor-sufixo"               [atributo$="fixo"] { }
+                   atributo="valor-qualquer-ocorrencia"  [atributo$="qualq"] { }
+
+
+Combinador CSS
+
+  Combinador       Formato
+- descendente      [seletor] [seletor]
+- filho            [seletor]>[seletor]
+- irmão adjacente  [seletor]+[seletor]
+- irmão em geral   [seletor]~[seletor]
+*/
+
+h1 {
+   background: blue;
+   color: white;
+}
+h2 {
+   color: blue;
+}
