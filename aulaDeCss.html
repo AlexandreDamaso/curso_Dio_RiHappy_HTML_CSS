@@ -1,14 +1,139 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Trilha de CSS</title>
    <link rel="stylesheet" href="./src/css/aulaDeCss.css">
 </head>
+
 <body>
-   <h1>DIO - Digital Innovation One</h1>
-   <h2>Trilha de CSS</h2>
-   <h2>Alexandre</h2>
+   <h1>Imagens</h1>
+   <!-- ##### ##### ##### ##### ##### ##### -->
+   <h2><code>object-fit</code></h2>
+   <code>object-fit: fill (padrão)</code>
+   <div class="object-fit"><img src="./src/img/startrek.jpg" alt="" id="object-fit-fill"></div>
+
+   <code>object-fit: contain</code>
+   <div class="object-fit"><img src="./src/img/startrek.jpg" alt="" id="object-fit-contain"></div>
+
+   <code>object-fit: cover</code>
+   <div class="object-fit"><img src="./src/img/startrek.jpg" alt="" id="object-fit-cover"></div>
+
+   <code>object-fit: none</code>
+   <div class="object-fit"><img src="./src/img/startrek.jpg" alt="" id="object-fit-none"></div>
+
+   <code>object-fit: scale-down (auto escolha)</code>
+   <div class="object-fit"><img src="./src/img/startrek.jpg" alt="" id="object-fit-scale-down"></div>
+
+   <!-- ##### ##### ##### ##### ##### ##### -->
+   <h2><code>object-position</code></h2>
+
+   <code>object-position: eixo Y</code>
+   <div class="object-position"><img src="./src/img/startrek.jpg" alt="" id="object-position-contain"></div>
+
+   <code>object-position: eixo X</code>
+   <div class="object-position"><img src="./src/img/startrek.jpg" alt="" id="object-position-cover"></div>
+
+   <!-- ##### ##### ##### ##### ##### ##### -->
+   <h2><code>Fundo dos Elementos</code></h2>
+
+   <code>Fundo dos Elementos: linear-gradient</code>
+   <div class="fundo-elementos" id="fundo-elementos-linear-gradient"></div>
+
+   <code>Fundo dos Elementos: radial-gradient</code>
+   <div class="fundo-elementos" id="fundo-elementos-radial-gradient"></div>
+
+   <code>Fundo dos Elementos: repeating-linear-gradient</code><br>
+   https://projects.verou.me/css3patterns/ ==> Aplicar para Modelos
+   <div class="fundo-elementos" id="fundo-elementos-repeating-linear-gradient"></div>
+
+   <!-- ##### ##### ##### ##### ##### ##### -->
+   <h2><code>Imagem de Background</code></h2>
+
+   <code>Imagem de Background: auto</code>
+   <div class="imagem-background" id="imagem-background_auto"></div>
+
+   <code>Imagem de Background: cover</code>
+   <div class="imagem-background" id="imagem-background_cover"></div>
+
+   <code>Imagem de Background: contain</code>
+   <div class="imagem-background" id="imagem-background_contain"></div>
+
+   <code>Imagem de Background: Passando Valor X Y</code>
+   <div class="imagem-background" id="imagem-background_passando-valor"></div>
+
+   <code>Imagem de Background: Camadas</code>
+   <div class="imagem-background" id="imagem-background_camadas"></div>
+
+
+   <!-- ##### ##### ##### ##### ##### ##### -->
+   <h2><code>Repetição do Background</code></h2>
+
+   <code>Repetição do Background: repeat (padrão)</code>
+   <div class="repeat-background" id="repeat-background_repeat"></div>
+
+   <code>Repetição do Background: repeat Eixo X</code>
+   <div class="repeat-background" id="repeat-background_x"></div>
+
+   <code>Repetição do Background: repeat Eixo Y</code>
+   <div class="repeat-background" id="repeat-background_y"></div>
+
+   <code>Repetição do Background: space</code>
+   <div class="repeat-background" id="repeat-background_space"></div>
+
+   <code>Repetição do Background: round</code>
+   <div class="repeat-background" id="repeat-background_round"></div>
+
+   <code>Repetição do Background: no repeat</code>
+   <div class="repeat-background" id="repeat-background_norepeat"></div>
+
+   <!-- ##### ##### ##### ##### ##### ##### -->
+   <h2><code>Background Position</code></h2>
+
+   <code>Background Position: top</code>
+   <div class="background-position" id="background-position_top"></div>
+
+   <code>Background Position: right</code>
+   <div class="background-position" id="background-position_right"></div>
+
+   <code>Background Position: botton</code>
+   <div class="background-position" id="background-position_botton"></div>
+
+   <code>Background Position: left</code>
+   <div class="background-position" id="background-position_left"></div>
+
+   <code>Background Position: center</code>
+   <div class="background-position" id="background-position_center"></div>
+
+   <code>Background Position: X Y</code>
+   <div class="background-position" id="background-position_xy"></div>
+
+   <code>Background Position: cover</code>
+   <div class="background-position" id="background-position_cover"></div>
+
+   
+   <!-- ##### ##### ##### ##### ##### ##### -->
+   <h2><code>Background Attachment</code></h2>
+
+   <code>Background Attachment: fixed (padrão)</code>
+   <div class="background-attachment" id="background-attachment_fixed">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis magnam fuga adipisci, voluptatibus unde reiciendis aliquam obcaecati dolores quos laborum rem culpa numquam laudantium minima pariatur veritatis id quaerat esse? Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis magnam fuga adipisci, voluptatibus unde reiciendis aliquam obcaecati dolores quos laborum rem culpa numquam laudantium minima pariatur veritatis id quaerat esse? Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis magnam fuga adipisci, voluptatibus unde reiciendis aliquam obcaecati dolores quos laborum rem culpa numquam laudantium minima pariatur veritatis id quaerat esse?
+   </div>
+
+   <code>Background Attachment: scroll</code>
+   <div class="background-attachment" id="background-attachment_scroll">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis magnam fuga adipisci, voluptatibus unde reiciendis aliquam obcaecati dolores quos laborum rem culpa numquam laudantium minima pariatur veritatis id quaerat esse? Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis magnam fuga adipisci, voluptatibus unde reiciendis aliquam obcaecati dolores quos laborum rem culpa numquam laudantium minima pariatur veritatis id quaerat esse? Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis magnam fuga adipisci, voluptatibus unde reiciendis aliquam obcaecati dolores quos laborum rem culpa numquam laudantium minima pariatur veritatis id quaerat esse?
+   </div>
+
+   <code>Background Attachment: local</code>
+   <div class="background-attachment" id="background-attachment_local">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis magnam fuga adipisci, voluptatibus unde reiciendis aliquam obcaecati dolores quos laborum rem culpa numquam laudantium minima pariatur veritatis id quaerat esse? Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis magnam fuga adipisci, voluptatibus unde reiciendis aliquam obcaecati dolores quos laborum rem culpa numquam laudantium minima pariatur veritatis id quaerat esse? Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis magnam fuga adipisci, voluptatibus unde reiciendis aliquam obcaecati dolores quos laborum rem culpa numquam laudantium minima pariatur veritatis id quaerat esse?
+   </div>
+
+
+
 </body>
+
 </html>
